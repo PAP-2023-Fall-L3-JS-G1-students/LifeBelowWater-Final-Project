@@ -1,4 +1,99 @@
 body {
     background-color: #EBF2FA;
-    ;
+}
+
+nav {
+    margin-bottom: 1px;
+    padding: 0.1rem;
+    text-align: center;
+    background-color: #064789;
+    position: relative;
+}
+
+#nav-logo {
+    width: 50px;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: block;
+}
+
+#nav-bar {
+    margin: 0px;
+    margin-top: -65px;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+    list-style-type: none;
+}
+
+#nav-bar > li {
+    margin: 0 50px;
+    padding: 0;
+    display: inline-block;
+}
+#nav-bar > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.55em;
+}
+
+nav > a {
+    margin: 0;
+    max-width: fit-content;
+    padding: 0;
+}
+
+#mission-statement {
+    text-align: center;
+}
+
+.button {
+    background-color: #064789;
+    color: white;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 15px;
+    padding: 15px;
+    border: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #427AA1;
+}
+
+#form-background {
+        box-sizing: border-box;
+        margin: 20px auto;
+        width: 900px;
+        height: 300px;
+        padding: 30px 50px;
+        border: 20px double #064789;
+        box-shadow: 0 0 15px #EBF2FA;
+        background-color: #427AA1;
+        background-size: cover;
+        color: white;
+        margin-top: 50px;
+}
+
+#form-header {
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+}
+
+#body-background {
+    background-image: url(images/fish-header.jpg);
+    background-size: cover;
+}
+
+#hours {
+    margin-top: 15px;
+    width: 400px;
+}
+
+.container {
+    margin-top: 40px;
 }

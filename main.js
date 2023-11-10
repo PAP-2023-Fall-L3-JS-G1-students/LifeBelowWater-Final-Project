@@ -1,4 +1,4 @@
-/*let form = document.querySelector("#form");
+let form = document.querySelector("#form");
 
 function generate(event) {
     event.preventDefault();
