@@ -6,7 +6,7 @@ nav {
     margin-bottom: 1px;
     padding: 0.1rem;
     text-align: center;
-    background-color: #064789;
+    background-color: #064789b2;
     position: relative;
 }
 
@@ -44,59 +44,7 @@ nav > a {
     padding: 0;
 }
 
-#mission-statement {
-    text-align: center;
-}
-
-.button {
-    background-color: #064789;
-    color: white;
-    font-weight: bold;
+body {
     font-family: 'Raleway', sans-serif;
-    margin-top: 15px;
-    padding: 15px;
-    border: none;
-    width: 477px;
-}
-
-.button:hover {
-    cursor: pointer;
-    background-color: white;
-    color: #427AA1;
-}
-
-#form-background {
-        box-sizing: border-box;
-        margin: 20px auto;
-        width: 625px;
-        height: 300px;
-        padding: 30px 50px;
-        border: 20px double #064789;
-        box-shadow: 0 0 15px #EBF2FA;
-        background-color: #427AA1;
-        background-size: cover;
-        color: white;
-        margin-top: 50px;
-        font-family: 'Raleway', sans-serif;
-        font-weight: bold;
-}
-
-#form-header {
-    text-align: center;
-    color: white;
-    margin-top: 45px;
-}
-
-#body-background {
-    background-image: url(images/fish-header.jpg);
-    background-size: cover;
-}
-
-#hours {
-    margin-top: 15px;
-    width: 470px;
-}
-
-.container {
-    margin-top: 40px;
+    margin: 0;
 }
