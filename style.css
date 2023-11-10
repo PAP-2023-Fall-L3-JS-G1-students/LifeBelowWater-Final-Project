@@ -56,6 +56,7 @@ nav > a {
     margin-top: 15px;
     padding: 15px;
     border: none;
+    width: 477px;
 }
 
 .button:hover {
@@ -67,7 +68,7 @@ nav > a {
 #form-background {
         box-sizing: border-box;
         margin: 20px auto;
-        width: 900px;
+        width: 625px;
         height: 300px;
         padding: 30px 50px;
         border: 20px double #064789;
@@ -76,12 +77,14 @@ nav > a {
         background-size: cover;
         color: white;
         margin-top: 50px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
 }
 
 #form-header {
     text-align: center;
     color: white;
-    margin-top: 25px;
+    margin-top: 45px;
 }
 
 #body-background {
@@ -91,7 +94,7 @@ nav > a {
 
 #hours {
     margin-top: 15px;
-    width: 400px;
+    width: 470px;
 }
 
 .container {
