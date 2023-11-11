@@ -1,23 +1,13 @@
 .story {
     font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
     color: white;
     box-shadow: 0 0 15px #EBF2FA;
-}
-
-#cynthia {
     background-color: #064789b2;
-    width: 1000px;
+    width: 1200px;
     padding: 30px;
     border-radius: 25px;
-}
-
-#sam {
-    background-color: #064789b2;
-    width: 1000px;
-    margin: 30px;;
-    padding: 30px;
-    border-radius: 25px;
+    margin: 20px;
 }
 
 .center-contain{
@@ -30,4 +20,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #427AA1;
+}
+
+.name {
+    margin: 0;
+    text-align: center;
 }

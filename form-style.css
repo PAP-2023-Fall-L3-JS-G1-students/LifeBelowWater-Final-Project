@@ -3,7 +3,7 @@
 }
 
 .button {
-    background-color: #064789;
+    background-color: #427AA1;
     color: white;
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
@@ -17,6 +17,7 @@
     cursor: pointer;
     background-color: white;
     color: #427AA1;
+    box-shadow: 0 0 15px #F4E8C1;
 }
 
 #form-background {
@@ -25,15 +26,19 @@
         width: 625px;
         height: 300px;
         padding: 30px 50px;
-        border: 20px double #064789;
         box-shadow: 0 0 15px #EBF2FA;
-        background-color: #4279a1b2;
+        background-color: #064789b2;
         background-size: cover;
         color: white;
         margin-top: 50px;
         font-family: 'Raleway', sans-serif;
         font-weight: bold;
         text-align: center;
+        border-radius: 25px;
+
+        justify-content: center;
+        align-items: center;
+        display: flex;
 }
 
 #form-header {
@@ -54,6 +59,4 @@
     width: 470px;
 }
 
-.container {
-    margin-top: 40px;
-}
+
