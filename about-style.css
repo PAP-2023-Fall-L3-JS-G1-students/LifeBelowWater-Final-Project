@@ -8,6 +8,7 @@
     padding: 30px;
     border-radius: 25px;
     margin: 20px;
+    display: flex;
 }
 
 .center-contain{
@@ -23,6 +24,7 @@
 }
 
 .name {
-    margin: 0;
+    margin: 15px;
     text-align: center;
+    writing-mode: vertical-lr;
 }
