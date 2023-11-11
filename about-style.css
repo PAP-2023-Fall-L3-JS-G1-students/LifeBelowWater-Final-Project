@@ -25,3 +25,9 @@
     justify-content: center;
 }
 
+#about-background {
+    background-image: url(images/fish-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #427AA1;
+}
