@@ -43,3 +43,8 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
 }
+
+.information {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
