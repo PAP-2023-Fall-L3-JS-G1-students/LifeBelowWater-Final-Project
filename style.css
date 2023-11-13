@@ -4,9 +4,28 @@ body {
     margin: 0;
 }
 
+#body-main-background {
+    background-image: url(images/fish-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #427AA1;
+}
 .information {
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    box-shadow: 0 0 15px #EBF2FA;
+    background-color: #064789b2;
+    width: 1200px;
+    padding: 30px;
+    border-radius: 25px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.center-main {
+    display: flex;
+    justify-content: center;
 }
 
 html {

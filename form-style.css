@@ -45,8 +45,12 @@
     text-align: center;
     color: white;
     margin-top: 45px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 }
 
+#form {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
 #body-background {
     background-image: url(images/fish-header.jpg);
     background-size: cover;
