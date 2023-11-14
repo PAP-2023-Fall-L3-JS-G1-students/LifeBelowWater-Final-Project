@@ -12,6 +12,7 @@ nav {
     margin-left: 15px;
     margin-top: 15px;
     display: block;
+    /* link to home page, use onClick or 'click' */
 }
 
 #nav-bar {

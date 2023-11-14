@@ -7,11 +7,38 @@
     <link rel="stylesheet" href="home-style.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav-bar.css">
+
+    <style>
+        a:link {
+          color: pink;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        
+        a:visited {
+          color: pink;
+          background-color: transparent;
+          text-decoration: none;
+        }
+        
+        a:hover {
+          color: darkblue;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        
+        a:active {
+          color: yellow;
+          background-color: transparent;
+          text-decoration: underline;
+        }
+        </style>
 </head>
 <body id="body-main-background">
     <header>
         <nav>
-            <img src="images/home-icon.png" id="nav-logo" alt="home-icon"/>
+            <a href="/home.html"><img src = "images/home-icon.png" id="nav-logo" alt="home-icon"/></a>
+            <!-- attempted to make the home image clickable with onClick, as well as a href linking to the home.html but that didn't work -->
             <ul id="nav-bar">
                 <li>
                     <a href="home.html">Home</a>
@@ -27,7 +54,7 @@
     </header>
     <main>
         <div id="mission-statement">
-            <h1>Misson: To Conserve and sustainably use the oceans, seas and marine resources for sustainable development</h1>
+            <h4>Misson: To Conserve and sustainably use the oceans, seas and marine resources for sustainable development</h4>
         </div>
         <section>
             <div class = "center-main">
@@ -40,6 +67,7 @@
                 <!-- <img src=""> -->
                 </div>
             </div>
+            <div class = "center-main">
             <div class="information" id="when">
                 <h1>Why we think this is important:</h1>
                 <ul>
@@ -47,15 +75,18 @@
                 <li>Excess nutrients: Usually caused by humans, causes large algae blooms to overtake sections of the water and induce hypoxia, rapidly depleting the oxygen supply for sea animals.</li>
                 <li>Link to an article on pollution and excess nutrients: <a href="https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-pollution#:~:text=Heavy%20metals%20and%20other%20contaminants,food%20out%20of%20the%20water" target="_blank">Ocean Microplastics</a></li>
                 </ul>
+                </div>
                 <!-- <img src=""> -->
             </div>
-            <div class="information" id="how">
+            <div class = "center-main">
+                <div class="information" id="how">
                 <h1>How we think this is important:</h1>
                 <ul>
                 <li>The studies of marine mammals are joined with the studies of humans, such as the consumption of microplastics, or how a whales long breath underwater relates to its ‘cancer-resisting cells’. We can learn a lot from animals, and can even save humans by using this research.</li>
                 <li>Medicine comes from the ocean. Pain killers, anti-bacterial and anti-tumor agents are all elements that are found from sea creatures and extracted for the development of medicines for us humans.</li>
                 <li>Link to an article on medicine from the ocean: <a href="https://oceanexplorer.noaa.gov/facts/medicinesfromsea.html" target="_blank">Medicine from the Ocean</a></li>
                 </ul>
+                </div>
                 <!-- <img src=""> -->
             </div>
             <div class="video-embed">
