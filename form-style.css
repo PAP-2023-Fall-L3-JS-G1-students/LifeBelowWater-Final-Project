@@ -1,3 +1,9 @@
+body {
+    background-color: #EBF2FA;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
 #mission-statement {
     text-align: center;
 }
@@ -32,7 +38,7 @@
         color: white;
         margin-top: 50px;
         font-family: 'Raleway', sans-serif;
-        font-weight: bold;
+        
         text-align: center;
         border-radius: 25px;
 
@@ -43,7 +49,7 @@
 
 #form-header {
     text-align: center;
-    color: pink;
+    color: white;
     margin-top: 45px;
     font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
     font-size: 35px;
@@ -51,7 +57,7 @@
 
 #form {
     font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 25px;
 }
 #body-background {
     background-image: url(images/fish-header.jpg);
@@ -65,4 +71,6 @@
     width: 470px;
 }
 
-
+html {
+    cursor: url("images/fish-cursor.png"), auto;  
+}
