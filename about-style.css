@@ -23,16 +23,18 @@ body {
 }
 
 #about-background {
-    background-image: url(images/fish-header.jpg);
+    background-image: url(images/hopefully-high-res-background.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #427AA1;
+    background-attachment: fixed;
 }
 
 .name {
     margin: 15px;
     text-align: center;
     writing-mode: vertical-lr;
+    color: rgb(158, 248, 140);
 }
 
 html {

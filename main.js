@@ -10,7 +10,7 @@ const container = document.querySelector("#form-background");
 console.log(container);
 
     if (hours < 0) {
-        container.innerHTML = "<div>Hey, that's not how time works 😠</div>";
+        container.innerHTML = "<div>Hey, that's not how time works 😠</div></br>";
     } 
         else if (hours < 2) {
         container.innerHTML = "<div>Educate yourself on ways you can reduce your carbon emissions and conserve water!</div>";

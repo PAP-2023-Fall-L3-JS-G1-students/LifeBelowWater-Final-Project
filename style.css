@@ -5,27 +5,42 @@ body {
 }
 
 #body-main-background {
-    background-image: url(images/fish-header.jpg);
+    background-image: url(images/hopefully-high-res-background.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #427AA1;
+    background-attachment: fixed;
+}
+
+.images {
+    width: 700px;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 60px;
+    /* display: flex; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
 }
 .information {
     font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
     color: white;
     box-shadow: 0 0 15px #EBF2FA;
     background-color: #064789b2;
-    width: 1200px;
+    width: 1500px;
     padding: 30px;
     border-radius: 25px;
     margin-top: 60px;
     display: flex;
 }
 
+
 .center-main {
     display: flex;
     justify-content: center;
+    
 }
 
 html {
@@ -50,24 +65,41 @@ html {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    font-size: 60x;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    padding: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 25px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 60px;
     display: flex;
+
+    box-shadow: 0 0 15px #EBF2FA;
+    background-color: #064789b2;
+    width: 1500px;
+    height: 100px;
+    padding: none;
 }
 
 h1 {
-    color: pink;
+    color: rgb(158, 248, 140);
 }
 
 h2 {
-    color: pink;
+    color: rgb(158, 248, 140);
 }
 h4 {
-    font-size: 40px;
-    color: pink;
+    font-size: 30px;
+    color: rgb(158, 248, 140);
+}
+
+#where {
+    margin-top: 0;
+}
+
+#why, #how {
+    margin-top: 60px;
+}
+
+.section-header {
+    text-align: center;
 }
