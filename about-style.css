@@ -15,6 +15,7 @@ body {
     border-radius: 25px;
     margin-top: 60px;
     display: flex;
+    
 }
 
 .center-contain{
@@ -39,4 +40,8 @@ body {
 
 html {
     cursor: url("images/fish-cursor.png"), auto;  
+}
+
+#sam {
+    margin-top: 150px;
 }

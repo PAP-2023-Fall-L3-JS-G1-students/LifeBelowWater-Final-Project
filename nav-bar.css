@@ -28,10 +28,16 @@ nav {
     padding: 0;
     display: inline-block;
 }
+
 #nav-bar > li > a {
     color: white;
     text-decoration: none;
     font-size: 1.55em;
     font-weight: bold;
     text-align: center;
+}
+
+header {
+    position: fixed;
+    width: 100%;
 }
